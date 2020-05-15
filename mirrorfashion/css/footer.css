@@ -1,9 +1,13 @@
 footer {
     background-image: url(../img/fundo-rodape.png);
-
-    padding:20px 0;
-
+    margin-top: 15px;
     clear: both;
+    padding: 20px 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
 }
 
 footer .container {
@@ -12,7 +16,6 @@ footer .container {
 
 .social {
     position:absolute;
-    top: 12px;
     right: 0;
 }
 
