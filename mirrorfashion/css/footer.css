@@ -24,7 +24,8 @@ footer .container {
     width: 32px;
 
     display: block;
-    text-indent: 9999px;
+    color: rgba(0, 0, 0, 0);
+    text-indent: -999px;
 }
 
 .social a[href*="facebook.com"] {
