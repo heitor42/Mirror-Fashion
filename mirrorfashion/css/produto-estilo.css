@@ -61,6 +61,14 @@ header h1 img {
 
     position: absolute;
     top: 30px;
+
+    cursor: pointer;
+
+    transition: border 0.1s;
+}
+
+.cores label:hover::after {
+    border: 6px solid rgba(0, 0, 0, 0.1);
 }
 
 label[for=verde]::after {
