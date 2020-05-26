@@ -35,6 +35,11 @@ header h1 img {
     padding-top: 90px;
 }
 
+.cores img {
+    display: block;
+    max-width: 100%;
+}
+
 .cores legend {
     position: absolute;
     top: 0;
