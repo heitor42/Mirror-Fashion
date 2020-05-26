@@ -94,6 +94,43 @@ label[for=azul]::after {
     display: none;
 }
 
+.produto {
+    color: #333;
+    line-height: 1.3;
+    margin-top: 2em;
+}
+
+.produto h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.produto p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.produto legend {
+    display: block;
+    font: bold 0.9em/2.5 Arial;
+    text-transform: uppercase;
+}
+
+.comprar {
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+
+    background: #91BD3C;
+    border: none;
+    color: #333;
+    font-size: 1.4em;
+    text-transform: uppercase;
+
+    box-shadow: 0 1px 3px #777;
+}
+
 @media (min-width: 939px) {
     .container {
     width: 940px;
