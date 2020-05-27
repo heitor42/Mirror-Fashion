@@ -159,17 +159,44 @@ label[for=azul]::after {
         position: absolute;
     }
 
-    @media (min-width: 720px) {
-        header h1 {
-            text-align: left;
-        }
+    .sacola {
+        display: block;
+    }
+}
 
-        .menu-opcoes {
-            position: absolute;
-        }
+@media (min-width: 630px) {
+    /* A imagem sera posicionar absolutamente com relação a esse elemento */
+    .produto {
+        position: relative;
+        padding-left: 40%;
+    }
 
-        .sacola {
-            display: block;
-        }
+    .cores {
+        /* pition static para evitar que a img se posicione em relação a cor */
+        position: static;
+        padding: 0;
+    }
+
+    .cores legend {
+        position: static;
+    }
+
+    .cores label img {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        max-width: 35%;
+        max-height: 100%;
+    }
+
+    .cores label::after {
+        position: static;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .produto {
+        font-size: 1.2em;
     }
 }
