@@ -43,12 +43,23 @@
                 <legend>Dados pessoais</legend>
                 <div class="form-group">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" name="nome" id="nome" class="form-control">
+                    <input 
+                        type="text" 
+                        name="nome" 
+                        id="nome" 
+                        class="form-control"
+                        autofocus
+                    >
                 </div>
 
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email"
+                        placeholder="email@exemplo.com"
+                    >
                 </div>
 
                 <div class="form-group">
@@ -62,6 +73,32 @@
                     <label class="custom-control-label" for="newsletter">Quero receber newsletter da Mirror Fashion</label>
                 </div>
             </fieldset>
+
+            <fieldset>
+                <legend>Cartão de Crédito</legend>
+                
+                <div class="form-group">
+                    <label for="number">Número - CVV</label>
+                    <input type="text" name="numero-cartao" id="numero-cartao" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="bandeira-catão">Bandeira</label>
+                    <select id="bandeira-catao" class="custom-select">
+                        <option disabled selected>Selecione uma opção...</option>
+                        <option value="master">MasterCard</option>
+                        <option value="visa">VISA</option>
+                        <option value="amex">American Express</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="validade-cartao">Validade</label>
+                    <input type="month" name="validade-cartao" id="validade-cartao" class="form-control">
+                </div>
+            </fieldset>
+
+            <button type="submit" class="btn btn-primary">Confirmar Pedido</button>
         </form>
     </div>
 </body>
